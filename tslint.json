@@ -1,0 +1,14 @@
+{
+    "extends": "tslint-microsoft-contrib/recommended",
+    "rulesDirectory": [
+    "node_modules/tslint-microsoft-contrib"
+    ],
+    "rules": {
+    "no-internal-module": false,
+    "no-namespace": false,
+    "trailing-comma": [true, {"multiline": "ignore", "singleline": "never"}],
+    "export-name": false,
+    "max-func-body-length": [true, 1687]
+    }
+    }
+    
