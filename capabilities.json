@@ -640,6 +640,22 @@
                         ]
                     } 
                 },
+                "colorOption": {
+                    "displayName": "Color option",
+                    "description": "Color fill based on solidcolor or Gradientcolor",
+                    "type": {
+                        "enumeration": [
+                            {
+                                "value": "solidcolor",
+                                "displayName": "Solid"
+                            },
+                            {
+                                "value": "colorgradient",
+                                "displayName": "Gradient"
+                            }
+                        ]
+                    } 
+                },
                 "range1": {
                     "displayName": "Zone 1 value",
                     "type": {
